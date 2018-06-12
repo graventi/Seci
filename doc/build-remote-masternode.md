@@ -78,10 +78,11 @@ promode=1
 
 #### Remote Machine
 
-1.  Download latest version of SECI linux amd64 release
+1.  Build the latest SECI code
 
-        https://github.com/Seci-Coin/Seci/releases
-2.  Create seci.conf file with the following contents:
+        https://github.com/Seci-Coin/Seci#building-on-ubuntu--debian
+        
+2.  Create seci.conf file with the following contents in `${HOME}/.seci/`:
 
 ```
 rpcallowip=127.0.0.1
