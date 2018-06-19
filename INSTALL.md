@@ -2,7 +2,7 @@
 
 ### Install Dependencies
 
-    ```sudo apt-get update
+    sudo apt-get update
     sudo apt-get upgrade //Optional
     sudo apt-get install build-essential
     sudo apt-get install libtool autotools-dev autoconf automake
@@ -16,15 +16,15 @@
     sudo apt-get install libminiupnpc-dev
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler //Optional, but required to build GUI Wallet
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev //Optional, but required to build GUI Wallet
-    sudo apt-get install libqrencode-dev //Optional```
+    sudo apt-get install libqrencode-dev //Optional
 
 ### Clone the Repo and Build Seci
 
-    ```git clone https://github.com/seci-coin/seci
+    git clone https://github.com/seci-coin/seci
     cd seci
     ./autogen.sh
     ./configure
-    make```
+    make
 
 __________________________________________________________________________
 
