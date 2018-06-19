@@ -1,7 +1,8 @@
 #!/bin/sh
-# Copyright (c) 2017 SECI developers
+# Copyright (c) 2017 STRAKS developers
+# Copyright (c) 2018 SECI Core Developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 set -e
 srcdir="$(dirname $0)"

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copyright (c) 2014 The Straks Core developers
 # Distributed under the MIT/X11 software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 TIMEOUT=10
 SIGNAL=HUP
 PIDFILE=.send.pid

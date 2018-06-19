@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2016 The Straks Core developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 """ TimeoutsTest -- test various net timeouts (only in extended tests)
 
 - Create three secid nodes:

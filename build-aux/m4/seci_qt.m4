@@ -1,6 +1,7 @@
 dnl Copyright (c) 2013-2016 The Straks Core developers
+# Copyright (c) 2018 SECI Core Developers
 dnl Distributed under the MIT software license, see the accompanying
-dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
+dnl file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 dnl Helper for cases where a qt dependency is not met.
 dnl Output: If qt version is auto, set seci_enable_qt to false. Else, exit.

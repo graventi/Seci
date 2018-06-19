@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # blocktools.py - utilities for manipulating blocks and transactions
 # Copyright (c) 2015-2016 The Straks Core developers
+# Copyright (c) SECI Core Developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 from .mininode import *
 from .script import CScript, OP_TRUE, OP_CHECKSIG, OP_RETURN

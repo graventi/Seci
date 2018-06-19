@@ -1,6 +1,6 @@
 // Copyright (c) 2016 Jeremy Rubin
 // Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef _SECI_CUCKOOCACHE_H_
 #define _SECI_CUCKOOCACHE_H_

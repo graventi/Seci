@@ -1,8 +1,9 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2017-2018 SECI developers
+// Copyright (c) 2017-2018 STRAKS developers
+// Copyright (c) 2018 SECI Core Developers
 // Copyright (c) 2014-2015 The seci developers
 // Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 #include "base58.h"
 #include "primitives/transaction.h"

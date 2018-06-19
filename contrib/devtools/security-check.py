@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # Copyright (c) 2015-2016 The Straks Core developers
+# Copyright (c) 2018 SECI Core Developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 '''
 Perform basic ELF security checks on a series of executables.
 Exit status will be 0 if successful, and the program will be silent.

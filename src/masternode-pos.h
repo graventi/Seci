@@ -1,8 +1,9 @@
 
 
-// Copyright (c) 2017-2018 SECI developers
+// Copyright (c) 2017-2018 STRAKS developers
+// Copyright (c) 2018 SECI Core Developers
 // Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 #ifndef MASTERNODE_POS_H
 #define MASTERNODE_POS_H
 

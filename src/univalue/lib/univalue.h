@@ -1,7 +1,8 @@
 // Copyright 2014 BitPay Inc.
-// Copyright 2015 seci Core Developers
+// Copyright 2015 STRAKS Core Developers
+// Copyright 2018 SECI Core Developers
 // Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef __UNIVALUE_H__
 #define __UNIVALUE_H__

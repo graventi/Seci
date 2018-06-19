@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-# Copyright (c) 2017 SECI developers
+# Copyright (c) 2017 STRAKS Core Developers
+# Copyright (c) 2018 SECI Core Developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 import re
 import fnmatch
@@ -83,12 +84,15 @@ def compile_copyright_regex(copyright_style, year_style, name):
 
 EXPECTED_HOLDER_NAMES = [
     "Satoshi Nakamoto\n",
-    "The Straks Core developers\n",
-    "SECI developers\n",
+    "SECI \n",
+	"SECI Developers \n",
+	"SECI Core Developers \n",
+	"The Straks Core developers\n",
+    "STRAKS developers\n",
     "The Straks Core developers \n",
-    "SECI developers \n",
+    "STRAKS developers \n",
     "Straks Core Developers\n",
-    "SECI Core Developers\n",
+    "STRAKS Core Developers\n",
     "the Straks Core developers\n",
     "The Straks developers\n",
     "The LevelDB Authors\. All rights reserved\.\n",
@@ -463,7 +467,7 @@ def get_header_lines(header, start_year, end_year):
 CPP_HEADER = '''
 // Copyright (c) %s SECI developers
 // Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 '''
 
 def get_cpp_header_lines_to_insert(start_year, end_year):
@@ -472,7 +476,7 @@ def get_cpp_header_lines_to_insert(start_year, end_year):
 PYTHON_HEADER = '''
 # Copyright (c) %s SECI developers
 # Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 '''
 
 def get_python_header_lines_to_insert(start_year, end_year):

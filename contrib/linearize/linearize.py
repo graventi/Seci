@@ -4,8 +4,9 @@
 #
 #
 # Copyright (c) 2013 The Straks developers
+# Copyright (c) 2018 SECI Core Developers
 # Distributed under the MIT/X11 software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 #
 
 import json

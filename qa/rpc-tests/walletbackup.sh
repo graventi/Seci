@@ -2,7 +2,7 @@
 # Copyright (c) 2014 The Straks Core developers
 # Copyright (c) 2014-2015 The Straks developers
 # Distributed under the MIT/X11 software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 # Test wallet backup / dump / restore functionality
 

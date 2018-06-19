@@ -1,6 +1,7 @@
 dnl Copyright (c) 2013-2015 The Straks Core developers
+dnl Copyright (c) 2018 SECI Developers
 dnl Distributed under the MIT software license, see the accompanying
-dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
+dnl file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 AC_DEFUN([SECI_FIND_BDB48],[
   AC_ARG_VAR(BDB_CFLAGS, [C compiler flags for BerkeleyDB, bypasses autodetection])

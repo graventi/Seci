@@ -1,6 +1,7 @@
 dnl Copyright (c) 2013-2014 The Straks Core developers
+dnl Copyright (c) SECI Core Developers
 dnl Distributed under the MIT software license, see the accompanying
-dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
+dnl file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 dnl SECI_SUBDIR_TO_INCLUDE([CPPFLAGS-VARIABLE-NAME],[SUBDIRECTORY-NAME],[HEADER-FILE])
 dnl SUBDIRECTORY-NAME must end with a path separator

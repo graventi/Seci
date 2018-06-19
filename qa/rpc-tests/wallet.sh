@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Copyright (c) 2013-2014 The Straks Core developers
+# Copyright (c) SECI Core Developers
 # Distributed under the MIT/X11 software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 # Test block generation and basic wallet sending
 

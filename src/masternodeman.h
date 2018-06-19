@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The seci developers
 // Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef MASTERNODEMAN_H
 #define MASTERNODEMAN_H
