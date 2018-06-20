@@ -1,22 +1,20 @@
 SECI
 ======
 
-##### Copyright (c) 2009-2017 SECI Developers
+##### Copyright (c) 2009-2017 STRAKS Developers
 ##### Copyright (c) 2014-2015 Dash Developers
-##### Copyright (c) 2017-2018 SECI Developers
+##### Copyright (c) 2018 SECI Developers
 
 Setup
 ---------------------
-[SECI Core](https://github.com/squbs/seci/releases) is the original SECI client and it builds the backbone of the network. However, it downloads and stores the entire history of SECI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few minutes to hours or a day or more. Thankfully you only have to do this once.
+[SECI Core](https://github.com/Seci-Coin/Seci/releases) is the original SECI client and it builds the backbone of the network. However, it downloads and stores the entire history of SECI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few minutes to hours or a day or more. Thankfully you only have to do this once.
 
 ### Need Help?
 
-* See the documentation at the [SECI Knowledge Base](https://kb.seci.info)
-for help and more information.
-* Ask for help on [SECI Discord](https://discord.gg/5gzvadZ)
+* Ask for help on [SECI Discord](https://discord.gg/7F5ehZu)
 
 
-Building
+Buildingt
 ---------------------
 The following are developer notes on how to build SECI on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
