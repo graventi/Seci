@@ -5,9 +5,9 @@ The built-in one is located in `/Applications/Utilities/Terminal.app`.
 
 Preparation
 -----------
-Install the OS X command line tools:
+Install XCode:
 
-`xcode-select --install`
+`xcode-select --install` or directly from the app store.
 
 When the popup appears, click the button to get XCode from the app store. Install XCode and open it to accept the license agreement, etc. Then you can close it.
 
