@@ -9,7 +9,7 @@ Install the OS X command line tools:
 
 `xcode-select --install`
 
-When the popup appears, click `Install`.
+When the popup appears, click the button to get XCode from the app store. Install XCode and open it to accept the license agreement, etc. Then you can close it.
 
 Then install [Homebrew](https://brew.sh).
 
@@ -61,7 +61,9 @@ Build seci Core
 Running
 -------
 
-seci Core is now available at `./src/secid`
+Seci QT is now available at `seci/src/qt/seci-qt`. Opening this fill will open the standard QT GUI wallet.
+
+Seci Core is now available at `seci/src/secid`
 
 Before running, it's recommended you create an RPC configuration file.
 
