@@ -65,7 +65,7 @@ Seci QT is now available at `seci/src/qt/seci-qt`. Opening this fill will open t
 
 Seci Core is now available at `seci/src/secid`
 
-Before running, it's recommended you create an RPC configuration file.
+Before running Seci Core, it's recommended you create an RPC configuration file.
 
     echo -e "rpcuser=secirpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/seci/seci.conf"
 
