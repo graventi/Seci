@@ -111,6 +111,8 @@ __________________________________________________________________________
 
 ### Install Dependencies
 
+Run each of the following commands/lines one after the other to prepare for the SECI install. 
+
     sudo apt-get update
     sudo apt-get upgrade //Optional
     sudo apt-get install build-essential
@@ -129,10 +131,14 @@ __________________________________________________________________________
 
 ### Clone the Repo and Build Seci
 
+Run each of the following commands/lines one after another to build SECI. Depending on whether you are the root user or not, you may need to run `sudo` before these.
+
     git clone https://github.com/seci-coin/seci
     cd seci
+    chmod 7777 autogen.sh
     ./autogen.sh
     ./configure
+    chmod +x /share/genbuild.sh
     make
 
 __________________________________________________________________________
