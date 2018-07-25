@@ -138,7 +138,7 @@ Run each of the following commands/lines one after another to build SECI. Depend
     chmod 7777 autogen.sh
     ./autogen.sh
     ./configure
-    chmod +x /share/genbuild.sh
+    chmod +x share/genbuild.sh
     make
 
 __________________________________________________________________________
