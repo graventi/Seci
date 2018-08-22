@@ -97,10 +97,10 @@ maxconnections=256
 promode=1
 ```    
 
-3.  Create a masternode.conf file in the same directory as your wallet.dat.  The masternode.conf
+3.  Create a masternode.conf file in the same directory as your wallet.dat (should be `${HOME}/.seci/`).The masternode.conf
     format consists of a space seperated text file. Each line consisting of an alias, ip address
     followed by port, masternode private key, collateral output transaction id and collateral
-    output index (matching the result of Local Machine Step 6)
+    output index.
 
 ```
 alias 127.0.0.1:9819 masternode_private_key collateral_output_txid collateral_output_index
@@ -110,19 +110,11 @@ e.g.
 mn01 127.0.0.1:9819 92bHZcSpmT6UinHzR8VgaVZVgBVfbDRCh1WogXXXXXXtf9pyZ4Y d565175089b0f4dce2294dc003799ae0c9cb703cadd996a0a4224458f176eb6e 0
 ```
 
-4.  Start SECI daemon by navigating to `cd seci/src` (not `.seci`) and using command `./secid` (or `sudo ./secid`). You should get the following output:
-
-```
-Missing masternode input, please look at the documentation for instructions on masternode creation
-```
-
-5.  Then enter the following command using *seci-cli*
-
-```
-./seci-cli masternode debug
-```
+4.  Start SECI daemon by navigating to `cd seci/src` (not `.seci`) and using command `./secid` (or `sudo ./secid`). This will start your SECI daemon for the first time. It will begin syncing (this can take some time). You can navigate back to `/seci/src` and run `./seci-cli getinfo` to confirm the block height. Once it is sync'd, move on.
 
 #### Local Machine
+
+Note: Your local wallet must remain online and sync'd to receive SeciNode rewards. Suggest keeping it on a stable/secure rig, separate VPS, or local PC with battery backup.
 
 1.  Back on your local machine; start the SECI Qt client
 
@@ -137,13 +129,9 @@ successfully started masternode
 ```
 
 3.  If you then enter: `masternodelist`
-    You should be able to locate the externalip of your remote node from the
-    output list of masternodes.
+    You should be able to locate the externalip of your remote node from the output list of masternodes.
 
     **Congratulations your masternode is up and running!**
 
     Alternatively, on the SECI Qt client Masternodes tab --> All Masternodes you should see your
     remote node ip address listed with its public key and other data
-
-
-3.  You can now shutdown your local "cold" wallet
